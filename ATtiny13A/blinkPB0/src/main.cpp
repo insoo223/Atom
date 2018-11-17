@@ -9,7 +9,7 @@ int main(void)
 
     while (1)
     {
-        _delay_ms(1000); //Trigem PC
+        _delay_ms(700); //Trigem PC
 
         // toggle the LED
         PORTB ^= _BV(1);
