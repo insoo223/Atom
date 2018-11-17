@@ -9,7 +9,7 @@ int main(void)
 
     while (1)
     {
-        _delay_ms(2400);
+        _delay_ms(2400); //LG PC
 
         // toggle the LED
         PORTB ^= _BV(1);
